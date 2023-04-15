@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>A.I. learn to play Flappy Bird</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/addons/p5.sound.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8" />
+</head>
+
+<body>
+  <h1>A.I. Learn to Play Flappy Bird</h1>
+  <div id="controls">
+    <button id="debug-btn" class="off">DEBUG</button>
+    <button id="toggle-best-bird" class="off">Show best bird only</button>
+  </div>
+  <p>Adjust the slider to control the animation speed:</p> <!-- Add a paragraph above the slider -->
+  <canvas id="chart-canvas"></canvas>
+  <input type="range" min="1" max="81" value="75" step="5" class="slider" id="mySlider" />
+  <script src="matrix.js"></script>
+  <script src="nn1.js"></script>
+  <script src="GA.js"></script>
+  <script src="pipes.js"></script>
+  <script src="birds.js"></script>
+  <script src="NNV.js"></script>
+  <script src="sketch.js"></script>
+  
+</body>
+</html>
