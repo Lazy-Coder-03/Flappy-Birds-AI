@@ -3,6 +3,11 @@ html, body {
   padding: 0;
   height: 100%;
   background-color: grey;
+
+  min-width: 600px;
+  min-height: 400px;
+
+  
 }
 canvas {
   display: block;
@@ -15,6 +20,7 @@ canvas {
   border: 2px solid black;
   background-color: #F5F5F5;
   width: 80vw; /* Set the width of the canvas to 80% of the viewport width */
+  min-width: 600px;
   height: calc(100vh - 30px); /* Set the height of the canvas to 100% of the viewport height minus 30px for the slider */
 }
 .slider {
@@ -104,6 +110,8 @@ button.off {
   height: 10vw; /* Set the height of the canvas to 100% of the viewport height minus 30px for the slider */
   max-width: 20%;
   max-height: 30%;
+  min-width: 400px;
+  max-height:400px;
 }
 
 
